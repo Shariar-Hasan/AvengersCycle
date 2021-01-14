@@ -1,0 +1,128 @@
+/* default css */
+p,a{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+    color: #363958;
+    font-weight: 700;
+}
+h4{
+    font-family: 'Bebas Neue', cursive;
+    color: #363958;
+    font-weight: 700;
+}
+
+/* header area start */
+.navbar a img{
+    width: 120px;
+}
+
+header{
+    background-color: #FFF9F4;
+    /* height: 1000px; */
+}
+/* .img-div {
+    background-image: url("../images/logo/bg-product.png");
+    background-size: contain;
+    background-position:left center;
+    background-repeat: no-repeat;
+    width: 100%;
+} */
+.img-div img{
+    max-width: 100%%;
+}
+.text-hl{
+    color: #ff7439;
+
+}
+.post{
+    width: 75%;
+}
+.post h1{
+    font-weight: 400;
+    font-size: 70px;
+}
+.button {
+    background-color: hsl(234, 81%, 58%);
+    padding: 18px 30px;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    transition: background-color .5s ease-in-out, color .4s ease-in-out;
+}
+.button:hover{
+    background-color:hsl(234, 100%, 53%) ;
+    color: white;
+}
+.post p{
+    font-weight: bold;
+}
+.button .cart-img{
+    width: 20px;
+    padding-right: 2px;
+}
+.price-btn span{
+    font-size: 40px;
+    font-weight: 600;
+}
+/* header area  end */
+
+
+
+/* cycle start */
+.card{
+    border: none;
+    border-radius: 40px;
+    height: 500px;
+    margin-bottom: 20px;
+}
+.card-img-self{
+    width: 100%;
+    height: 50%;
+    margin: 0 auto;
+    border: 20px solid #F1F1F1;
+    border-radius: 40px 40px 0 0;
+}
+.card-text{
+    padding: 10px 0;
+}
+
+
+
+/* cycle end */
+
+/* shop and facilities start */
+.fac{
+    border-radius: 15px;
+    /* height: 190px; */
+
+}
+.fac img{
+    width: 100px;
+}
+.facilities h4{
+    font-family: sans-serif;
+}
+
+/* shop and facilities end */
+
+
+/* extra features start */
+
+.upcoming-products{
+    height: 500px;
+}
+.carousel-control-prev span , .carousel-control-next span{
+    color: white;
+    background-color: black;
+    /* padding: 14px; */
+    border-radius: 50%;
+}
+
+
+.subscribe{
+    margin: 180px 0;
+}
+/* extra features end */
